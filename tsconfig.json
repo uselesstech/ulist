@@ -14,15 +14,16 @@
             "DOM"
         ],
         "skipLibCheck": true,
-        "noEmit": true
+        "noEmit": true,
+        "types": [
+            "naive-ui/volar"
+        ]
     },
     "include": [
         "src/**/*.ts",
         "src/**/*.d.ts",
         "src/**/*.tsx",
         "src/**/*.vue",
-        "types/vite-env.d.ts",
-        "types/vite-env.d.ts"
     ],
     "references": [
         {
